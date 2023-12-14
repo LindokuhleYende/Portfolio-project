@@ -1,18 +1,26 @@
-img{
-    width: 200px;
-    height: auto;
-    border-radius: 40%;
-    display: flex;
-    justify-content: left;
-    margin: 30px 10px ;
+footer{
+    background-color: rgb(4, 4, 83);
 }
 h1,h2{
     color: beige;
 }
+.img {
+    border-radius: 40%;
+}
 .intro{
     background-image: url("images/code.jpg");
-    background-size: contain;
+    background-size: cover;
+
 }
 .container{
     background-color: black;
+}
+.blue{
+    color:cadetblue;
+    font-weight: bolder;
+    font-style: italic;
+}
+.grey{
+    color: dimgray;
+    font-weight: bold;
 }
