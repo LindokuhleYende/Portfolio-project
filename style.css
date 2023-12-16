@@ -28,3 +28,9 @@ h1,h2{
 .back:hover{
    background: darkcyan;
 }
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
