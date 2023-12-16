@@ -1,5 +1,6 @@
 footer{
-    background-color: rgb(4, 4, 83);
+    background-color: rgb(1, 1, 32);
+    margin-top: 50px;
 }
 h1,h2{
     color: beige;
@@ -23,4 +24,7 @@ h1,h2{
 .grey{
     color: dimgray;
     font-weight: bold;
+}
+.back:hover{
+   background: darkcyan;
 }
