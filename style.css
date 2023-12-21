@@ -5,6 +5,9 @@ footer{
 h1,h2{
     color: beige;
 }
+p{
+    color:beige;
+}
 .img {
     border-radius: 40%;
 }
