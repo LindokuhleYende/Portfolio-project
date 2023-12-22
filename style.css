@@ -1,6 +1,7 @@
 footer{
     background-color: rgb(1, 1, 32);
     margin-top: 50px;
+    padding-top: 10px;
 }
 h1,h2{
     color: beige;
@@ -36,4 +37,10 @@ p{
     justify-content:space-evenly;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.link{
+    color:beige;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
