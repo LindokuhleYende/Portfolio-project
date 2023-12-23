@@ -44,3 +44,9 @@ p{
     display: flex;
     justify-content: center;
 }
+.contactInfo{
+    display: block;
+    margin: 30px 10px;
+    text-decoration: none;
+    color:blueviolet;
+}
