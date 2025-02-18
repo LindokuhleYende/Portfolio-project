@@ -9,6 +9,10 @@ h1,h2{
 p{
     color:beige;
 }
+
+li{
+    color: burlywood;
+}
 .img {
     border-radius: 40%;
 }
