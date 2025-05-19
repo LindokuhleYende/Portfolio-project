@@ -6,8 +6,16 @@ footer{
 h1,h2{
     color: beige;
 }
+h3{
+    color: blue;
+}
 p{
     color:beige;
+}
+
+li{
+    color: burlywood;
+    font-family: cursive;
 }
 .img {
     border-radius: 40%;
@@ -49,4 +57,7 @@ p{
     margin: 30px 10px;
     text-decoration: none;
     color:blueviolet;
+}
+.proj{
+    width: 100%;
 }
