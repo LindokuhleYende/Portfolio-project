@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../CodeCollege/IntroToProgram/CodeCollegeIntroToProgram/myCode"
+		},
+		{
+			"path": "../../ops.challenge"
+		},
+		{
+			"path": "../../SheCodes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio-project"
+	}
+}

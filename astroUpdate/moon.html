@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mission to the moon</title>
+    <style>
+        body{
+            text-align: center;
+            background-image: linear-gradient(grey,beige);
+        }
+        h1{
+            color:darkblue;
+
+        }
+        h4{
+            font-weight: bolder;
+            color:blanchedalmond;
+        }
+        h5{
+            color:darkblue;
+            font-size:large;
+            font-weight: bold;
+        }
+        button{
+            display: block;
+            margin:0 auto;
+            color:beige;
+            background-color: darkturquoise;
+            transition: all 200ms ease-in-out;
+            padding: 10px 15px;
+            cursor:pointer;
+            box-shadow:none;
+        }
+
+        button:hover{
+            color:black;
+            background:darkgoldenrod;
+            border: 5px thin whitesmoke;
+        }
+        p{
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+       KUHLE SPACE TECH INDUSTRY
+    </h1>
+    <h2>
+        Astronomy updates:
+    </h2>
+    <h4>
+        CHANDRAYAAN MOON LANDING
+    </h4>
+    <img src="https://cdn.siasat.com/wp-content/uploads/2023/08/sf-f-780x470.jpg" alt="Chandrayaan moon landing" width="400">
+    <p>
+        Chandrayaan-3 is the third mission in the Chandrayaan program,a series of Lunar-exploration missions 
+        developed by the Indian Space Research Organisation (ISRO).<br />
+        Chandrayaan-3 was lauched from Satish-Dhawan Space Centre on 14 July 2023. The spacecraft entered Lunar
+        orbit on 5 August 2023, and the lander touched down near the <br />
+        Lunar South-polar region on 23 August at 12:33 UTC, making India the fourth country to successfully 
+        land on the moon and the first to land near the region of the South pole.<br />
+        <strong>
+            Why does NASA and everyone want to go to the moon's South pole...
+        </strong>  
+        <a href="https://www.space.com/chandrayaan-3-moon-south-pole-why-nasa-wants-to-go-too" target="_blank">
+            learn more...
+        </a>
+        <hr />
+        <h5>
+            On other updates: SUPER BLUE MOON
+        </h5>
+        <img src="https://hips.hearstapps.com/hmg-prod/images/super-moon-2018-royalty-free-image-1613767516.?crop=0.611xw:1.00xh;0.193xw,0&resize=1200:*" alt="Super blue moon" width="300" >
+        <br />
+        The
+        <a href="https://moon.nasa.gov/news/197/super-blue-moons-your-questions-answered/" target="_blank">
+           Super blue moon     
+        </a>
+        <span>
+           ,took place on 30-31 on August and the next Super Blue Moon is predicted to occur in 2037 
+        </span> 
+
+    </p>
+    <button>
+        <a href="mailto:yendelindokuhle2@gmail.com">
+            For more Astronomy updates
+        </a>
+    </button>
+    <br />
+    <div>
+        Coded by Lindokuhle Yende
+    </div>
+    <script>
+        function detailButton(){
+            let interest =prompt("Are you interested in getting more updates:(Yes or no)").toLowerCase();
+            
+            if (interest==="yes") {
+                let name = prompt("Please enter your name😉").toLocaleUpperCase();
+                let email = prompt("Enter your email address:");
+                alert("Thank you, "+ name + ". We'll be in contact for more updates");
+            }
+            else{
+                alert("Thank you!");
+            }
+        }
+        let contactButton = document.querySelector("button");
+        contactButton.addEventListener("click",detailButton);
+    </script>
+    
+</body>
+</html>
