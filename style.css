@@ -64,3 +64,14 @@ li{
 .proj{
     width: 100%;
 }
+.btn a {
+    text-decoration: none;
+    color: inherit;
+    /* optional: keeps the button text color */
+}
+.carousel-item img {
+    height: 250px;
+    /* Set a consistent height */
+    object-fit: cover;
+    /* Crop to fit nicely */
+}
