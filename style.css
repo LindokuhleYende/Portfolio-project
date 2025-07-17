@@ -10,7 +10,10 @@ h3{
     color: #8ccfee;
 }
 p{
-    color:beige;
+    color: rgb(112, 180, 235);
+    font-style: oblique;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 li{
@@ -75,3 +78,4 @@ li{
     object-fit: cover;
     /* Crop to fit nicely */
 }
+
