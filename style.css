@@ -33,6 +33,7 @@ li{
         rgb(3, 50, 60) 0%,
         rgb(57, 2, 88) 35%,
         rgb(67, 1, 41) 100%);
+    padding-left: 15px;
 }
 .blue{
     color:cadetblue;
@@ -78,4 +79,3 @@ li{
     object-fit: cover;
     /* Crop to fit nicely */
 }
-
